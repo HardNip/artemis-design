@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 /* ------ Welcome & Slogna ------ */
 .templatemo-welcome {
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #f5f3eb;
     min-height: 230px;
 }
 
@@ -158,35 +158,35 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     font-weight: normal;
     margin-top: 12px;
     font-size: 12px;
-    color: #e67e22;
+    color: #be3c37;
 }
 
 
-.btn-orange {
-    background-color: #ff7600;
-    border-bottom:2px solid #d35400;
+.btn-adred {
+    background-color: #be3c37;
+    border-bottom:2px solid #be3c38;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#f5f3eb;
+}
+
+.btn-adred:hover, .btn-adred:focus, .btn-adred:active, .btn-adred.active, .open .dropdown-toggle.btn-adred {
+    background-color: #be3c37;
+    color:#f5f3eb;
+}
+
+.btn-adblack {
+    background-color:#3f3f40;
+    border-bottom:2px solid #3f3f41;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     color:#ffffff;
 }
 
-.btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
-    background-color: #d35400;
-    color:#ffffff;
-}
-
-.btn-green {
-    background-color:#2ecc71;
-    border-bottom:2px solid #27ae60;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    color:#ffffff;
-}
-
-.btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
-    background-color: #27ae60;
+.btn-adblack:hover, .btn-adblack:focus, .btn-adblack:active, .btn-adblack.active, .open .dropdown-toggle.btn-adblack {
+    background-color: #3F3F40;
     color:#ffffff;
 }
 
@@ -196,13 +196,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #be3c37;
     color:#fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #be3c37;
     color:#fff;
 }
 
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #ff7600;
+    background-color: #be3c37;
     color:#fff;
 }
 
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-header-orange {
-    background-color:#ff7600;
+    background-color:#be3c37;
     min-width: 298px;
     height: 67px;
     color: #fff; 
@@ -367,12 +367,12 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     margin:15px;
 }
 
-.txt_darkgrey {
-    color: #333333;
+.txt_adblack {
+    color: #3f3f40;
 }
 
-.txt_orange {
-    color: #e67e22;
+.txt_adred {
+    color: #be3c37;
 }
 
 .txt_slogan {
@@ -528,25 +528,25 @@ a:hover .social-icon-dribbble {
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
-    border: 3px solid #ff7600;
+    border: 3px solid #be3c37;
 }
 
 .templatemo-gallery-category a {
-	color:#333333; 
+	color:#3f3f40; 
 }
 
 .templatemo-gallery-category a.active {
-	color:#e67e22; 
+	color:#be3c37; 
 	text-decoration:none;
 }
 
 .templatemo-gallery-category a:focus {
-	color:#e67e22;
+	color:#be3c37;
 	text-decoration:none;	
 }
 
 .templatemo-gallery-category a:hover {
-	color:#e67e22; 
+	color:#be3c37; 
 	text-decoration:none;
 }
 
